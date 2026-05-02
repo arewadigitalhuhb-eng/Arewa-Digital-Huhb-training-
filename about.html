@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Arewa Digital Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Arewa Digital Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <section class="page-header">
+        <h1>About Us</h1>
+        <p>Learn more about our mission and vision</p>
+    </section>
+
+    <section class="about-content">
+        <div class="about-card">
+            <h2>Who We Are</h2>
+            <p>Arewa Digital Hub is a technology initiative dedicated to bringing digital literacy and innovation to Northern Nigeria. Founded by passionate developers and educators, we aim to create opportunities for youth through technology.</p>
+        </div>
+        <div class="about-card">
+            <h2>Our Mission</h2>
+            <p>To bridge the digital divide by providing accessible technology education, resources, and platforms that empower individuals and communities to thrive in the digital economy.</p>
+        </div>
+        <div class="about-card">
+            <h2>Our Vision</h2>
+            <p>A Northern Nigeria where every individual has the skills and tools to participate in and contribute to the global digital landscape.</p>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <h2>Meet the Founder</h2>
+        <div class="team-card">
+            <div class="team-avatar">👤</div>
+            <h3>Abdullahi Umar Muazu</h3>
+            <p>Founder & Lead Developer</p>
+            <p>Software developer passionate about building solutions for the community.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Arewa Digital Hub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

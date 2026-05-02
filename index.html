@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Arewa Digital Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Arewa Digital Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Arewa Digital Hub</h1>
+            <p>Empowering Northern Nigeria through technology and innovation.</p>
+            <a href="services.html" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card">
+            <h3>🚀 Innovation</h3>
+            <p>Cutting-edge solutions for modern challenges.</p>
+        </div>
+        <div class="feature-card">
+            <h3>📚 Learning</h3>
+            <p>Quality training and skill development programs.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🌐 Connectivity</h3>
+            <p>Bridging the digital divide in our community.</p>
+        </div>
+    </section>
+
+    <!-- Scrolling Text -->
+    <div class="scroll-container">
+        <div class="scroll-text"><span>Welcome to my first website</span></div>
+        <div class="scroll-text"><span>My name is Abdullahi Umar Muazu</span></div>
+        <div class="scroll-text"><span>I'm learning programming & software development</span></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Arewa Digital Hub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
